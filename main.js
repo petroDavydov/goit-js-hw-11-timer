@@ -51,6 +51,12 @@ function stopText(time) {
 }
 
 new CountdownTimer({
-  selector: "#timer-1",
-  targetDate: new Date("Aug 30, 2021"),
-});
+	selector: "#timer-1",
+	targetDate: new Date("Aug 30, 2021"),
+  });
+
+  new CountdownTimer({
+	selector: "#timer-2",
+	targetDate: new Date("Aug 15, 2021"),
+  });
+	
